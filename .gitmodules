@@ -1,4 +1,4 @@
 [submodule "nvblox"]
 	path = nvblox
-	url = https://github.com/nvidia-isaac/nvblox.git
-	branch = public
+	url = https://github.com/sbgisen/nvblox.git
+	branch = fix-namespace
