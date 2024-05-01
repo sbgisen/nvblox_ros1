@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
-
-<?ignore
- SPDX-FileCopyrightText: Copyright (c) 2021-2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+<?ignore SPDX-FileCopyrightText: Copyright (c) 2021-2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -25,14 +23,19 @@
   <description>nvblox ROS1 interface</description>
 
   <maintainer email="helenoleynikvoa@gmail.com">Helen Oleynikova</maintainer>
-  <maintainer email="tutuna@ethz.ch">Turcan Tuna</maintainer> 
+  <maintainer email="tutuna@ethz.ch">Turcan Tuna</maintainer>
   <license>Apache-2.0</license>
 
   <author>Turcan Tuna</author>
   <author>Helen Oleynikova</author>
   <author>Alexander Millane</author>
-  
   <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>libgflags-dev</depend>
+  <depend>libgoogle-glog-dev</depend>
+  <depend>gtest</depend>
+  <depend>libsqlite3-dev</depend>
+  <depend>qtbase5-dev</depend>
 
   <depend>geometry_msgs</depend>
   <depend>nvblox_msgs</depend>
